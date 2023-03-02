@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Gajraj One';
+    src: url('../assets/GajrajOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Climate Crisis';
+    src: url('../assets/ClimateCrisis-Regular-VariableFont_YEAR.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+}
+
+#heading {
+    font-family: 'Gajraj One', cursive;
+    font-size: 120px;
+    font-style: normal;
+    color: white;
+    z-index: 2;
+}
+
+#heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 30%;
+    z-index: -1;
+}
+
+#nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(192, 8, 8);
+    z-index: 4;
+}
+
+#nav > button {
+    border: none;
+    background-color: inherit;
+    font-family: 'Climate Crisis', cursive;
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+    padding-right: 20px;
+    transition: all .2s ease-in-out; 
+}
+
+#nav > button:hover {
+    transform: scale(1.2); 
+    color: rgb(255, 209, 84);
+}

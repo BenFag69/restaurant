@@ -1,31 +1,23 @@
 {
-  "name": "restaurant",
+  "name": "restaurant2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BenFag69/restaurant.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BenFag69/restaurant/issues"
-  },
-  "homepage": "https://github.com/BenFag69/restaurant#readme",
-  "keywords": [],
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "2.8.4",
+    "style-loader": "^3.3.1",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "wepack-cli": "^0.0.1-security"
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "eslint": "^8.34.0"
+    "eslint": "^8.35.0"
   }
 }
